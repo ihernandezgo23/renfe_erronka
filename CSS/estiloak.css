@@ -89,12 +89,25 @@ button:hover {
 
 .col-sm-4 img {
     border-radius: 8px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .col-sm-4 p {
-    text-align: center;
     margin-left: 12%;
-    margin-right: 10%;
+    margin-right: 13%;
+    color: black;
+}
+
+.col-sm-4 a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
 }
 
 .qep p {
