@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Renfe;
+    src: url(../fonts/helvetica_medium.ttf);
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #660545;
+    font-family: Renfe;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: Renfe;
+    font-size: 1.5em;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bg-dark {
+    background-color: #660545 !important;
+}
+
+.abisua {
+    height: 80px;
+    background-color: #490331;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    padding-right: 40%;
+    padding-left: 40%;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+label {
+    margin-bottom: 8px;
+}
+  
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #45a049;
+}
+
+.col-sm-4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col-sm-4 img {
+    border-radius: 8px;
+}
+
+.qep p {
+    color: black;
+    transition: box-shadow 0.3s linear, -webkit-box-shadow 0.3s linear;
+    margin-right: 18%;
+    margin-left: 18%;
+    text-align: center;
+    border-radius: 7px;
+    font-family: "Alliance-Bold", Helvetica, sans-serif;
+    font-size: 1em;
+}
