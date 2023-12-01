@@ -91,13 +91,18 @@ button:hover {
     border-radius: 8px;
 }
 
-.qep p {
-    color: black;
-    transition: box-shadow 0.3s linear, -webkit-box-shadow 0.3s linear;
-    margin-right: 18%;
-    margin-left: 18%;
+.col-sm-4 p {
     text-align: center;
-    border-radius: 7px;
-    font-family: "Alliance-Bold", Helvetica, sans-serif;
-    font-size: 1em;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+
+.qep p {
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 10px;
+    border-radius: 10px;
 }
