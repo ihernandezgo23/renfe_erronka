@@ -119,3 +119,28 @@ button:hover {
     margin-top: 10px;
     border-radius: 10px;
 }
+
+.pasahitza {
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+}
+
+.pasahitza:hover {
+    text-decoration: underline;
+    color: #660545;
+}
+
+.fcc-btn {
+    background-color: #199319;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.fcc-btn:hover{
+    font-size: 1.2em;
+    color: whitesmoke;
+    text-decoration: none;
+}
